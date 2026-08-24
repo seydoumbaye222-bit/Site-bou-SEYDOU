@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Success rates at the Grandes Écoles d’Architecture: evolution since the 2022 reform</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Success rates at the Grandes Écoles d’Architecture: evolution since the 2022 reform</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600" alt="Examen militaire" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Since the admission system reform implemented in 2022, candidates to the Grandes Écoles d’Architecture have observed notable changes in success rates, reflecting an adjustment of selection criteria and a new pedagogical dynamic.</p>
+
+      <h2>Context of the 2022 reform</h2>
+      <p>The 2022 reform introduced a transversal skills component, a revised grading scale for drawing exams, and a reinforced support system for public institutions. The stated goal was to diversify admitted profiles while maintaining the academic rigor characteristic of architecture schools.</p>
+
+      <h2>Statistics before and after the reform</h2>
+      <p>According to data from the Ministry of Higher Education, the average success rate was 28 % in 2021. In 2023, this rate rose to 34 % and modestly increased to 36 % in 2024, indicating a gradual improvement but still far from full equity among candidates.</p>
+
+      <h2>Factors influencing the evolution of rates</h2>
+      <p>Several elements explain this increase: the implementation of pre‑selection tests, the rise in the number of places offered by certain schools, and better preparation of candidates thanks to state‑funded support courses. Nonetheless, competition remains strong, especially in the most prestigious schools where the rate stays below 20 %.</p>
+
+      <h2>Outlook and recommendations</h2>
+      <p>To consolidate this trend, experts suggest further harmonising evaluation criteria across schools, strengthening mentorship programmes, and continuing data collection to adjust admission policies in real time. Ongoing monitoring will allow measurement of the reform’s real impact on the diversity and quality of admitted students.</p>
+
+      <h2>Conclusion</h2>
+      <p>In summary, the 2022 reform has generated a moderate but significant increase in success rates for the entrance exams of the Grandes Écoles d’Architecture, while highlighting the need for further adjustments to achieve equity and excellence goals.</p>
+
+      </div>
+    <p><a href="taux-de-reussite-aux-grandes-ecoles-darchitecture-evolution-.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Concours & Bourses Sénégal</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
