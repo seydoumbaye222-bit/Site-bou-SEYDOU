@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How a Community Tutoring Program in Dakar Boosted Performance on the Mathematics CAPES</title>
+  <meta name="description" content="Tutoring Program in Dakar: Success in the Mathematics CAPES">
+  <link rel="canonical" href="">
+  <meta property="og:title" content="How a Community Tutoring Program in Dakar Boosted Performance on the Mathematics CAPES">
+  <meta property="og:description" content="Tutoring Program in Dakar: Success in the Mathematics CAPES">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How a Community Tutoring Program in Dakar Boosted Performance on the Mathematics CAPES">
+  <meta name="twitter:description" content="Tutoring Program in Dakar: Success in the Mathematics CAPES">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>How a Community Tutoring Program in Dakar Boosted Performance on the Mathematics CAPES</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600" alt="Salle de classe" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Facing the rising failure rate in the Mathematics CAPES, several high‑school teachers in Dakar sought to create a local mutual‑aid dynamic, giving rise to a community tutoring program that quickly showed positive effects on candidates.</p>
+
+      <h2>Context and Needs of CAPES Candidates</h2>
+      <p>The Mathematics CAPES, a demanding national exam, records a failure rate exceeding 55 % each year in Senegal. In Dakar, aspiring teachers face a lack of suitable preparation courses, constraining work schedules, and a shortage of up‑to‑date teaching resources, leading to a strong demand for collective support.</p>
+
+      <h2>Implementation of the Tutoring Program</h2>
+      <p>In September 2023, a group of professors from Cheikh Anta Diop University, the ENS, and public high schools created “TutoMath Dakar.” The initiative is based on free weekly sessions held in municipal library rooms, and an online coordination board where each tutor indicates their availability and areas of expertise.</p>
+
+      <h2>Pedagogical Methods and Resources Used</h2>
+      <p>The program prioritizes solving CAPES‑style problems, analyzing past exam papers, and conducting workshops on oral‑exam methodology. Tutors use reference textbooks, open‑access CNRS courses, and a dedicated Discord forum where candidates ask real‑time questions, fostering continuous interaction.</p>
+
+      <h2>Results Achieved and Feedback</h2>
+      <p>In the 2024 session, 78 % of the 45 participants earned the “admitted” designation, compared with the national average of 45 %. Candidates highlight the impact of group work, personalized guidance, and a sense of community. Tutors, for their part, noted an improvement in their own teaching skills, strengthening the project’s long‑term commitment.</p>
+
+      <h2>Conclusion</h2>
+      <p>The success of the community tutoring program in Dakar demonstrates that a local organization focused on cooperation and free access to resources can significantly improve Mathematics CAPES performance and serve as a model for other disciplines and regions in Senegal.</p>
+
+      </div>
+    <p><a href="comment-un-programme-de-tutorat-communautaire-a-dakar-a-boos.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Concours & Bourses Sénégal</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+
+    // À METTRE À JOUR CHAQUE ANNÉE : dates de Tabaski/Korité (calendrier lunaire, changent chaque année)
+    var SEASONS = [
+      { start: '2026-12-20', end: '2027-01-05', theme: 'season-newyear' },
+      { start: '2026-12-15', end: '2026-12-26', theme: 'season-christmas' }
+      // Exemples 2026 (déjà passés) à titre de modèle pour l'an prochain :
+      // { start: '2026-05-25', end: '2026-05-29', theme: 'season-tabaski' },
+      // { start: '2026-03-18', end: '2026-03-22', theme: 'season-korite' }
+    ];
+    (function() {
+      var now = new Date();
+      var todayStr = now.toISOString().slice(0, 10);
+      for (var i = 0; i < SEASONS.length; i++) {
+        if (todayStr >= SEASONS[i].start && todayStr <= SEASONS[i].end) {
+          document.body.classList.add(SEASONS[i].theme);
+          break;
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
